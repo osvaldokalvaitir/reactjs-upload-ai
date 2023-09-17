@@ -1,27 +1,63 @@
-# React + TypeScript + Vite
+<h1 align="center">
+    <img src="/.github/assets/logo.svg"
+    width="200px"
+    alt="Logo" />
+</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h3 align="center">
+  ReactJS - upload.ai
+</h3>
 
-Currently, two official plugins are available:
+<p align="center">
+  :sparkles: upload.ai Application using Vite, TypeScript, Tailwind CSS, ffmpeg.wasm, Vercel AI SDK, Label - Radix UI, Select - Radix UI, Separator - Radix UI, Slider - Radix UI, Lucide and consuming the features of the Node.js - upload.ai API
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/osvaldokalvaitir/reactjs-upload-ai.svg?color=00A83A">
 
-## Expanding the ESLint configuration
+  <img alt="GitHub language top" src="https://img.shields.io/github/languages/top/osvaldokalvaitir/reactjs-upload-ai.svg?color=00A83A">
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+  <a href="https://kalvaitir.com/">
+    <img alt="Made by Kalvaitir" src="https://img.shields.io/badge/made%20by-Kalvaitir-00A83A">
+  </a>
 
-- Configure the top-level `parserOptions` property like this:
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-00A83A">
+</p>
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+<p align="center">
+  <a href="#computer-demo">Demo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#wrench-install-and-run">Install and run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#memo-license">License</a>
+</p>
+
+## :computer: Demo
+
+![Demo](/.github/assets/demo.gif)
+
+## :wrench: Install and run
+
+_ps: Before running the app, start the [Node.js - upload.ai](https://github.com/osvaldokalvaitir/nodejs-upload-ai) backend._
+
+Open terminal:
+
+```sh
+# Clone this repo
+git clone https://github.com/osvaldokalvaitir/reactjs-upload-ai
+
+# Entry in folder
+cd reactjs-upload-ai
+
+# Install deps with npm or yarn
+npm install | yarn
+
+# Launch the app with npm or yarn
+npm run dev | yarn dev
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## :memo: License
+
+This project is under the MIT license. See [LICENSE](/LICENSE) for more information.
+
+---
+
+<p align="center">
+Developed with 💚 by <a href="https://www.linkedin.com/in/osvaldokalvaitir">Osvaldo Kalvaitir Filho</a>
+</p>
